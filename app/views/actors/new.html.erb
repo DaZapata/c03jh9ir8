@@ -1,0 +1,37 @@
+<h1>Ingrese nuevo actor</h1>
+<form action="/actors" method="post">
+
+	<div class= form-group>
+		<label for="image_url">URL image:</label>
+		<input class="form-control" type="text" name="image_url">
+	</div>
+	<div class= form-group>
+		<label for="actor_name">Nombre:</label>
+		<input class="form-control" type="text" name="actor_name">
+	</div>
+	<div class= form-group>
+		<label for="bio">Bio:</label>
+		<textarea name="bio" class="form-control" type="text"></textarea>
+	</div>
+	<div class= form-group>
+		<label for="dob">Fecha de nacimiento:</label>
+		<input name="dob" class="form-control" type="date">
+	</div>
+	<div class= form-group>
+		<label for="pob">Lugar de nacimiento:</label>
+		<input name="pob" class="form-control" type="text">
+	</div>
+	<div class= form-group>
+		<label for="alive">Vivo:</label>
+		<input name="alive" type="checkbox">
+	</div>
+	<div class= form-group>
+		<label for="dod">Fecha de fallecimiento:</label>
+		<input name="dod" class="form-control" type="date">
+	</div>
+	<div class= form-group>
+		<label for="pod">Lugar de fallecimiento:</label>
+		<input name="pod" class="form-control" type="text">
+	</div>
+	<input type="submit" value="Crear Actor">
+</form>
